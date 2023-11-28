@@ -8,4 +8,4 @@ if __name__ == '__main__':
     #ci sono 3 stati: 0 - 1 e 2. 
     #0: Stampa solo i risultati finali dei test (passati o falliti).
     #1: Stampa una breve descrizione di ciascun test mentre viene eseguito, oltre ai risultati finali.
-    #2: Stampa una descrizione più dettagliata di ciascun test mentre viene eseguito, oltre ai risultati finali. 
+    #2: Stampa una descrizione più dettagliata di ciascun test mentre viene eseguito, oltre ai risultati finali.
