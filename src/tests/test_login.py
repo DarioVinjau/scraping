@@ -1,8 +1,4 @@
 import unittest
-import sys
-import os
-import time
-#sys.path.insert(0, os.getcwd())
 from pages.home_page import HomePage
 from webdriver_manager import get_chrome_driver
 
@@ -17,12 +13,11 @@ class TestHomePage(unittest.TestCase):
             self.home_page.wait_for_home_page(self.home_page.amazon_logo)
             #eredito dalla basepage un metodo che aspetta 5sec finché non trova il logo di amazon
             
-            item_searched = 'pc fissi'
+            item_searched = 'pc fisso'
             self.home_page.set_click(self.home_page.accept_cookie)
             self.home_page.set_text(self.home_page.search_field,item_searched)
             self.home_page.set_click(self.home_page.search_button)
             self.home_page.set_click(self.home_page.marche_button)
-            time.sleep(10)
             #self.home_page.set_search_field(item_searched) metodo alternativo per scrivere sulla barra di ricerca
             #self.home_page.click_search_button() idem sotto per un'altra cosa
         except Exception as e:
