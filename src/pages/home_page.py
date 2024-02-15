@@ -11,6 +11,7 @@ class HomePage(BasePage):
         self.accept_cookie = (By.ID,'sp-cc-accept')
         self.search_field = (By.ID,"twotabsearchtextbox")
         self.search_button = (By.ID, 'nav-search-submit-button')
+        self.marche_button = (By.XPATH,"//span[@data-csa-c-content-id='p_123/613215']")
     
     def set_search_field(self, item_searched):
         self.driver.find_element(*self.search_field).send_keys(item_searched)
