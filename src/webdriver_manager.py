@@ -11,5 +11,6 @@ def get_chrome_driver():
     chrome_options = webdriver.ChromeOptions()
     #chrome_options.add_argument("--headless")
     service = Service(executable_path=full_path) #"C:/Users/dvinjau/Downloads/chromedriver.exe"
+    #service = Service(executable_path="C:/Users/dvinjau/Downloads/chromedriver.exe")
     driver = webdriver.Chrome(service=service, options=chrome_options)
     return driver
