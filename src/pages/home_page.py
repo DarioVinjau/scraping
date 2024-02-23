@@ -12,7 +12,6 @@ class HomePage(BasePage):
         self.search_field = (By.ID,"twotabsearchtextbox")
         self.search_button = (By.ID, 'nav-search-submit-button')
 
-
 """   def wait_for_login_page(self):
         WebDriverWait(self.driver, 10).until(
             EC.presence_of_element_located(self.username_input)

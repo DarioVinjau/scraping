@@ -41,17 +41,16 @@ class TestHomePage(unittest.TestCase):
             else:
                 mode = "w"
             with open(percorso_file, mode) as file_json:
-                
                 dati= {
-                "run"+data: [{
-                "data":data,
-                "descrizione":descrizione,
-                "prezzo": prezzo
-                }]
+                    "run"+data: [{
+                    "data":data,
+                    "descrizione":descrizione,
+                    "prezzo": prezzo
+                                }]
                     }  
-            json.dump(dati, file_json)
-            file_json.write("\n")
-            file_json.close()
+                json.dump(dati, file_json)
+                file_json.write("\n")
+                file_json.close()
             #self.home_page.set_search_field(item_searched) metodo alternativo per scrivere sulla barra di ricerca
             #self.home_page.click_search_button() idem sotto per un'altra cosa
         except Exception as e:
