@@ -20,6 +20,7 @@ class TestHomePage(unittest.TestCase):
         self.home_page = HomePage(self.driver)
         self.base_page = BasePage(self.driver)
         self.pc_page = PcPage(self.driver)
+        self.pc_page = PcPage(self.driver)
 
     def test_pc_romagna(self):
         try:
@@ -32,7 +33,10 @@ class TestHomePage(unittest.TestCase):
             self.home_page.set_text(self.home_page.search_field,self.base_page.item_searched)
             self.home_page.click_element(self.home_page.search_button)
             self.home_page.click_element(self.pc_page.marche_button)
+            self.home_page.click_element(self.pc_page.marche_button)
             
+            descrizione = self.home_page.get_text(self.pc_page.data_asin)
+            prezzo = self.home_page.get_text(self.pc_page.value)
             descrizione = self.home_page.get_text(self.pc_page.data_asin)
             prezzo = self.home_page.get_text(self.pc_page.value)
             time.sleep(5)
@@ -42,12 +46,11 @@ class TestHomePage(unittest.TestCase):
                 mode = "w"
             with open(percorso_file, mode) as file_json:
                 dati= {
-                    "run"+data: [{
-                    "data":data,
-                    "descrizione":descrizione,
-                    "prezzo": prezzo
-                                }]
-                    }  
+                "run"+data: [{
+                "data":data,
+                "descrizione":descrizione,
+                "prezzo": prezzo
+                }]}
                 json.dump(dati, file_json)
                 file_json.write("\n")
                 file_json.close()
