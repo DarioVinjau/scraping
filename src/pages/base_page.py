@@ -8,6 +8,7 @@ from selenium.webdriver.common.keys import Keys
 class BasePage:
    
     item_searched = 'pc fisso'
+    item_code = 'B0BBWFCGFH'
     
     def __init__(self, driver):
         self.driver = driver

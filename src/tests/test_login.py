@@ -35,9 +35,7 @@ class TestHomePage(unittest.TestCase):
             time.sleep(2)
             self.home_page.click_element(self.pc_page.marche_button)
             self.home_page.click_element(self.pc_page.marche_button)
-            
-            descrizione = self.home_page.get_text(self.pc_page.data_asin)
-            prezzo = self.home_page.get_text(self.pc_page.value)
+            item = self.base_page.item_code
             descrizione = self.home_page.get_text(self.pc_page.data_asin)
             prezzo = self.home_page.get_text(self.pc_page.value)
             time.sleep(5)
@@ -46,23 +44,19 @@ class TestHomePage(unittest.TestCase):
                 with open(percorso_file, "r") as f:
                     contenuto = json.load(f)
             else:
-                contenuto = {"run": []}
-                
-            nuovo_elemento = {"data":data,"descrizione":descrizione,"prezzo": prezzo}
-                
-            contenuto["run"].append(nuovo_elemento) 
+                contenuto = {}
+
+            if item in contenuto:
+                contenuto[item]['descrizione'] = descrizione
+                if 'storico' in contenuto[item]:
+                    contenuto[item]['storico'][data] = prezzo
+                else:
+                    contenuto[item]['storico'] = {data: prezzo}
+            else:
+                contenuto[item] = {'descrizione': descrizione,'storico': {data: prezzo}}
+
             with open(percorso_file, "w") as f:
-                json.dump(contenuto, f, separators=(',', ':'))
-            #qua praticamente dovevo trovare un modo per dirgli che ad ogni } di andare a capo.
-            #probabilmente non è il miglior procedimento, però funziona    
-            with open(percorso_file, "r+") as f:  
-                json_data = f.read()
-                f.seek(0)
-                f.truncate()
-                for char in json_data:
-                    f.write(char)
-                    if char == '}':
-                        f.write("\n")
+                json.dump(contenuto, f, indent=4)
             
             #self.home_page.set_search_field(item_searched) metodo alternativo per scrivere sulla barra di ricerca
             #self.home_page.click_search_button() idem sotto per un'altra cosa

@@ -1,20 +1,23 @@
-{"run":[{"data":"2024-02-19","descrizione":"PC fisso Computer desktop - Intel Core I7 4770 - Ram 32 GB - SSD 1 TB - Intel HD 4600 - masterizzatore - Wi-Fi interno - Windows 11 Pro - HDMI -VGA - DVI - 6 x USB 2.0-3 x USB 3.0","prezzo":"516"}
-,{"data":"2024-02-21","descrizione":"PC fisso Computer desktop - Intel Core I7 4770 - Ram 32 GB - SSD 1 TB - Intel HD 4600 - masterizzatore - Wi-Fi interno - Windows 11 Pro - HDMI -VGA - DVI - 6 x USB 2.0-3 x USB 3.0","prezzo":"519"}
-,{"data":"2024-02-22","descrizione":"PC fisso Computer desktop - Intel Core I7 4770 - Ram 32 GB - SSD 1 TB - Intel HD 4600 - masterizzatore - Wi-Fi interno - Windows 11 Pro - HDMI -VGA - DVI - 6 x USB 2.0-3 x USB 3.0","prezzo":"516"}
-,{"data":"2024-02-23","descrizione":"PC fisso Computer desktop - Intel Core I7 4770 - Ram 32 GB - SSD 1 TB - Intel HD 4600 - masterizzatore - Wi-Fi interno - Windows 11 Pro - HDMI -VGA - DVI - 6 x USB 2.0-3 x USB 3.0","prezzo":"516"}
-,{"data":"2024-02-26","descrizione":"PC fisso Computer desktop - Intel Core I7 4770 - Ram 32 GB - SSD 1 TB - Intel HD 4600 - masterizzatore - Wi-Fi interno - Windows 11 Pro - HDMI -VGA - DVI - 6 x USB 2.0-3 x USB 3.0","prezzo":"519"}
-,{"data":"2024-02-27","descrizione":"PC fisso Computer desktop - Intel Core I7 4770 - Ram 32 GB - SSD 1 TB - Intel HD 4600 - masterizzatore - Wi-Fi interno - Windows 11 Pro - HDMI -VGA - DVI - 6 x USB 2.0-3 x USB 3.0","prezzo":"519"}
-,{"data":"2024-02-28","descrizione":"PC fisso Computer desktop - Intel Core I7 4770 - Ram 32 GB - SSD 1 TB - Intel HD 4600 - masterizzatore - Wi-Fi interno - Windows 11 Pro - HDMI -VGA - DVI - 6 x USB 2.0-3 x USB 3.0","prezzo":"519"}
-,{"data":"2024-02-29","descrizione":"PC fisso Computer desktop - Intel Core I7 4770 - Ram 32 GB - SSD 1 TB - Intel HD 4600 - masterizzatore - Wi-Fi interno - Windows 11 Pro - HDMI -VGA - DVI - 6 x USB 2.0-3 x USB 3.0","prezzo":"516"}
-,{"data":"2024-03-01","descrizione":"PC fisso Computer desktop - Intel Core I7 4770 - Ram 32 GB - SSD 1 TB - Intel HD 4600 - masterizzatore - Wi-Fi interno - Windows 11 Pro - HDMI -VGA - DVI - 6 x USB 2.0-3 x USB 3.0","prezzo":"516"}
-,{"data":"2024-03-04","descrizione":"PC fisso Computer desktop - Intel Core I7 4770 - Ram 32 GB - SSD 1 TB - Intel HD 4600 - masterizzatore - Wi-Fi interno - Windows 11 Pro - HDMI -VGA - DVI - 6 x USB 2.0-3 x USB 3.0","prezzo":"516"}
-,{"data":"2024-03-05","descrizione":"PC fisso Computer desktop - Intel Core I7 4770 - Ram 32 GB - SSD 1 TB - Intel HD 4600 - masterizzatore - Wi-Fi interno - Windows 11 Pro - HDMI -VGA - DVI - 6 x USB 2.0-3 x USB 3.0","prezzo":"516"}
-,{"data":"2024-03-06","descrizione":"PC fisso Computer desktop - Intel Core I7 4770 - Ram 32 GB - SSD 1 TB - Intel HD 4600 - masterizzatore - Wi-Fi interno - Windows 11 Pro - HDMI -VGA - DVI - 6 x USB 2.0-3 x USB 3.0","prezzo":"516"}
-,{"data":"2024-03-07","descrizione":"PC fisso Computer desktop - Intel Core I7 4770 - Ram 32 GB - SSD 1 TB - Intel HD 4600 - masterizzatore - Wi-Fi interno - Windows 11 Pro - HDMI -VGA - DVI - 6 x USB 2.0-3 x USB 3.0","prezzo":"516"}
-,{"data":"2024-03-08","descrizione":"PC fisso Computer desktop - Intel Core I7 4770 - Ram 32 GB - SSD 1 TB - Intel HD 4600 - masterizzatore - Wi-Fi interno - Windows 11 Pro - HDMI -VGA - DVI - 6 x USB 2.0-3 x USB 3.0","prezzo":"516"}
-,{"data":"2024-02-20","descrizione":"PC fisso Computer desktop - Intel Core I7 4770 - Ram 32 GB - SSD 1 TB - Intel HD 4600 - masterizzatore - Wi-Fi interno - Windows 11 Pro - HDMI -VGA - DVI - 6 x USB 2.0-3 x USB 3.0","prezzo":"519"}
-,{"data":"2024-03-08","descrizione":"PC fisso Computer desktop - Intel Core I7 4770 - Ram 32 GB - SSD 1 TB - Intel HD 4600 - masterizzatore - Wi-Fi interno - Windows 11 Pro - HDMI -VGA - DVI - 6 x USB 2.0-3 x USB 3.0","prezzo":"516"}
-,{"data":"2024-02-20","descrizione":"PC fisso Computer desktop - Intel Core I7 4770 - Ram 32 GB - SSD 1 TB - Intel HD 4600 - masterizzatore - Wi-Fi interno - Windows 11 Pro - HDMI -VGA - DVI - 6 x USB 2.0-3 x USB 3.0","prezzo":"519"}
-,{"data":"2024-02-20","descrizione":"PC fisso Computer desktop - Intel Core I7 4770 - Ram 32 GB - SSD 1 TB - Intel HD 4600 - masterizzatore - Wi-Fi interno - Windows 11 Pro - HDMI -VGA - DVI - 6 x USB 2.0-3 x USB 3.0","prezzo":"519"}
-,{"data":"2024-03-10","descrizione":"PC fisso Computer desktop - Intel Core I7 4770 - Ram 32 GB - SSD 1 TB - Intel HD 4600 - masterizzatore - Wi-Fi interno - Windows 11 Pro - HDMI -VGA - DVI - 6 x USB 2.0-3 x USB 3.0","prezzo":"516"}
-]}
+{
+    "B0BBWFCGFH": {
+        "descrizione": "PC fisso Computer desktop - Intel Core I7 4770 - Ram 32 GB - SSD 1 TB - Intel HD 4600 - masterizzatore - Wi-Fi interno - Windows 11 Pro - HDMI -VGA - DVI - 6 x USB 2.0-3 x USB 3.0",
+        "storico": {
+            "2024-02-19": "516",
+            "2024-02-20": "519",
+            "2024-02-21": "519",
+            "2024-02-22": "516",
+            "2024-02-23": "516",
+            "2024-02-26": "516",
+            "2024-02-27": "519",
+            "2024-02-28": "519",
+            "2024-02-29": "519",
+            "2024-03-01": "516",
+            "2024-03-04": "516",
+            "2024-03-05": "516",
+            "2024-03-06": "516",
+            "2024-03-07": "516",
+            "2024-03-08": "516",
+            "2024-03-11": "516"
+        }
+    }
+}
