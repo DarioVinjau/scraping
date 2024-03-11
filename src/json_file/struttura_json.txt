@@ -1,0 +1,19 @@
+{
+
+	item1:{
+		descrizione: "xxx"
+		storico:{
+			2023-05-09: 456,
+			2023-06-07: 578
+		}
+	},
+
+	item2:{
+		descrizione: "xxx"
+		storico:{
+			2023-05-09: 456,
+			2023-06-07: 578
+		}
+	}
+
+}
